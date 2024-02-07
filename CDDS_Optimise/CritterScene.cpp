@@ -118,7 +118,7 @@ void CritterScene::despawnCritters()
         delete critter;
     }
 
-    //Delete this when the object pool is implemented.
+    //DELETE THIS WHEN THE OBJECT POOL IS IMPLEMENTED
     getCritterList()->destroy();
     getCritterList()->pushBack(m_destroyer);
 }
